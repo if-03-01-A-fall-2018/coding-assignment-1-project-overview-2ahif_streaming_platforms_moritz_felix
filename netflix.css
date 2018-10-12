@@ -1,0 +1,24 @@
+body{
+  background-image: url("http://1.bp.blogspot.com/-hrGFLyJba3U/Uh90QVFp01I/AAAAAAAAFoY/F5R7LBbTox0/s1600/Background-Picture-Html.jpg");
+  background-repeat: no-repeat, repeat;
+  background-size: cover;
+  color: white;
+}
+article > section > section >a:link, article > section > a:visited {
+    background-color: red;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+article > section> section> a:hover, article > section> a:active {
+    background-color: red;
+}
+article{
+  imageposition:center;
+}
+article > section{
+
+}
