@@ -4,7 +4,7 @@ body{
   background-size: cover;
   color: white;
 }
-article > section > section >a:link, article > section > a:visited {
+article > section > section >section >a:link, article > section > section >a:visited {
     background-color: red;
     color: white;
     padding: 14px 25px;
@@ -13,12 +13,16 @@ article > section > section >a:link, article > section > a:visited {
     display: inline-block;
 }
 
-article > section> section> a:hover, article > section> a:active {
+article > section> section> section >a:hover, article > section> section > a:active {
     background-color: red;
 }
-article{
+article > section{
   imageposition:center;
 }
-article > section{
-
+article > section > p{
+  border: 1px solid black;
+  padding: 10px;
+  width: 800px;
+  height: 600px;
+  text-align: justify;
 }

@@ -1,5 +1,5 @@
 body{
-  background-image: url("http://1.bp.blogspot.com/-hrGFLyJba3U/Uh90QVFp01I/AAAAAAAAFoY/F5R7LBbTox0/s1600/Background-Picture-Html.jpg");
+  background-color: black;
   background-repeat: no-repeat, repeat;
   background-size: cover;
   color: white;
@@ -10,10 +10,10 @@ article > h1 {
   font
 
 }
-article>section{
+article{
   list-style-type: "Punkt";
 }
-article > section > a:link, article > section > a:visited {
+article > section >a:link, article > section >a:visited {
     background-color: red;
     color: white;
     padding: 14px 25px;
@@ -22,6 +22,6 @@ article > section > a:link, article > section > a:visited {
     display: inline-block;
 }
 
-article > section> a:hover, article > section> a:active {
-    background-color: white;
+article > section >a:hover, article > section >a:active {
+    background-color: black;
 }
