@@ -1,9 +1,38 @@
 body{
-  background-image: url("http://1.bp.blogspot.com/-hrGFLyJba3U/Uh90QVFp01I/AAAAAAAAFoY/F5R7LBbTox0/s1600/Background-Picture-Html.jpg");
+  background-color:black;
   background-repeat: no-repeat, repeat;
   background-size: cover;
   color: white;
 }
+article>section>section{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+article>section>section>li {
+    float: left;
+}
+
+article>section>section>li>a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+article>section>section>li>a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: #4CAF50;
+}
+
+
 article > section > section >section >a:link, article > section > section >a:visited {
     background-color: red;
     color: white;

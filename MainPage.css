@@ -7,13 +7,38 @@ body{
 }
 article > h1 {
   font-size: 300;
-  font
+  text-align: center;
+}
+article>section{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+article>section>li {
+    float: left;
+}
+
+article>section>li>a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+article>section>li>a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: #4CAF50;
+}
 
 }
-article{
-  list-style-type: "Punkt";
-}
-article > section >a:link, article > section >a:visited {
+article > section >li >a:link, article > section >li >a:visited {
     background-color: red;
     color: white;
     padding: 14px 25px;
@@ -22,6 +47,6 @@ article > section >a:link, article > section >a:visited {
     display: inline-block;
 }
 
-article > section >a:hover, article > section >a:active {
+article > section >li >a:hover, article > section >li >a:active {
     background-color: black;
 }
