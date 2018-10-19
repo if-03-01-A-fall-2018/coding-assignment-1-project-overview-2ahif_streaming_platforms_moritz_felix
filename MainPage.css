@@ -1,4 +1,7 @@
-
+body{
+  background-color: black;
+  color: white;
+}
 article > h1 {
   font-size: 300;
   text-align: center;
