@@ -4,7 +4,7 @@ body{
   background-size: cover;
   color: white;
 }
-article>section>section{
+.topnav{
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -12,11 +12,11 @@ article>section>section{
     background-color: #333;
 }
 
-article>section>section>li {
+.topnav li {
     float: left;
 }
 
-article>section>section>li>a {
+.topnav li a{
     display: block;
     color: white;
     text-align: center;
@@ -24,7 +24,7 @@ article>section>section>li>a {
     text-decoration: none;
 }
 
-article>section>section>li>a:hover:not(.active) {
+.topnav li a:hover:not(.active) {
     background-color: #111;
 }
 
@@ -33,7 +33,7 @@ article>section>section>li>a:hover:not(.active) {
 }
 
 
-article > section > section >section >a:link, article > section > section >a:visited {
+.tonav li:link, .topnav li:visited {
     background-color: red;
     color: white;
     padding: 14px 25px;
@@ -42,13 +42,11 @@ article > section > section >section >a:link, article > section > section >a:vis
     display: inline-block;
 }
 
-article > section> section> section >a:hover, article > section> section > a:active {
-    background-color: red;
 }
 article > section{
   imageposition:center;
 }
-article > section > section >p{
+.htext p{
   border: 1px solid black;
   padding: 10px;
   width: 700px;

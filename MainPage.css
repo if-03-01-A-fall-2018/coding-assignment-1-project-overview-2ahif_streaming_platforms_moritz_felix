@@ -1,49 +1,63 @@
-body{
-  background-color: black;
-  color: white;
+
+* {
+    box-sizing: border-box;
 }
-article > h1 {
-  font-size: 300;
-  text-align: center;
+
+body {
+    font-family: Arial;
+    padding: 10px;
+    background: rgb(24,24,24);
 }
-article>section{
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
+
+
+.header {
+    padding: 30px;
+    text-align: center;
+    background: rgb(160, 160, 160);
+}
+
+.header h1 {
+    font-size: 50px;
+
+}
+
+.topnav {
     overflow: hidden;
     background-color: #333;
 }
 
-article>section>li {
+.topnav a {
     float: left;
-}
-
-article>section>li>a {
     display: block;
-    color: white;
+    color: #f2f2f2;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
 }
 
-article>section>li>a:hover:not(.active) {
-    background-color: #111;
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
 }
 
-.active {
-    background-color: #4CAF50;
+.leftcolumn {
+    float: left;
+    width: 75%;
+}
+.fakeimg {
+    background-color: #aaa;
+    width: 100%;
+    padding: 20px;
 }
 
-}
-article > section >li >a:link, article > section >li >a:visited {
-    background-color: red;
-    color: white;
-    padding: 14px 25px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
+.card {
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px;
 }
 
-article > section >li >a:hover, article > section >li >a:active {
-    background-color: black;
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
 }
